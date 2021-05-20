@@ -33,7 +33,7 @@
     "firebase": "^6.3.4"
   },
   "dependencies": {
-    "firebaseui": "^4.1.0"
+    "firebaseui": "keisukekomeda/firebaseui-web#v4.8.0_ja"
   },
   "devDependencies": {
     "@types/react": "^16.3.2",
