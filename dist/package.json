@@ -3,20 +3,20 @@
   "version": "4.0.0",
   "description": "React wrapper for firebaseui: Javascript library for customizable UI on top of Firebase SDK",
   "files": [
-    "FirebaseAuth.d.ts",
-    "FirebaseAuth.js",
-    "FirebaseAuth.js.map",
-    "index.d.ts",
-    "index.js",
-    "index.js.map",
-    "LICENSE",
-    "package.json",
-    "README.md",
-    "StyledFirebaseAuth.d.ts",
-    "StyledFirebaseAuth.js",
-    "StyledFirebaseAuth.js.map"
+    "dist/FirebaseAuth.d.ts",
+    "dist/FirebaseAuth.js",
+    "dist/FirebaseAuth.js.map",
+    "dist/index.d.ts",
+    "dist/index.js",
+    "dist/index.js.map",
+    "dist/LICENSE",
+    "dist/package.json",
+    "dist/README.md",
+    "dist/StyledFirebaseAuth.d.ts",
+    "dist/StyledFirebaseAuth.js",
+    "dist/StyledFirebaseAuth.js.map"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "build": "webpack -p && babel src --out-dir dist -s && cp ./types/* README.md LICENSE package.json dist && cd dist && npm install --only=production && cd -",
@@ -33,7 +33,7 @@
     "firebase": "^6.3.4"
   },
   "dependencies": {
-    "firebaseui": "^4.1.0"
+    "firebaseui": "keisukekomeda/firebaseui-web#v4.8.0_ja"
   },
   "devDependencies": {
     "@types/react": "^16.3.2",
